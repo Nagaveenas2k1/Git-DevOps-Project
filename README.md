@@ -149,32 +149,32 @@ This project demonstrates a standard DevOps Git workflow, including creation and
 
 ## Frequently Used Git Commands
 
-### - Create a new branch from current branch
+### 1. Create a new branch from current branch
 
 - git checkout -b branch-name
 
-### 2.Switch branches
+### 2. Switch branches
 
 - git checkout branch-name
 
-### 3.Add all changes
+### 3. Add all changes
 
 - git add .
 
-### 4.Commit changes
+### 4. Commit changes
 
 - git commit -m "Commit message"
 
-### 5.Push changes to remote
+### 5. Push changes to remote
 
 - git push origin branch-name
 
-### 6.Merge branches (locally)
+### 6. Merge branches (locally)
 
 - git checkout dev
 - git merge feature/practice-script
 
-### 7.Tag a commit
+### 7. Tag a commit
 
 - git tag -a v1.0.0 -m "Release notes"
 - git push origin v1.0.0
