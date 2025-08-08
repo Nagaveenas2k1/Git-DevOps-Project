@@ -149,7 +149,7 @@ This project demonstrates a standard DevOps Git workflow, including creation and
 
 ## Frequently Used Git Commands
 
-### 1.Create a new branch from current branch
+### - Create a new branch from current branch
 
 - git checkout -b branch-name
 
