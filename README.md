@@ -120,6 +120,7 @@ This project demonstrates a standard DevOps Git workflow, including creation and
 
 3. **Merge dev into main (for release)**
     - On GitHub, create a new Pull Request:
+   
         - Base branch: `main`
         - Compare branch: `dev`
         - Add a message:
@@ -148,32 +149,32 @@ This project demonstrates a standard DevOps Git workflow, including creation and
 
 ## Frequently Used Git Commands
 
-### Create a new branch from current branch
+### 1.Create a new branch from current branch
 
 - git checkout -b branch-name
 
-### Switch branches
+### 2.Switch branches
 
 - git checkout branch-name
 
-### Add all changes
+### 3.Add all changes
 
 - git add .
 
-### Commit changes
+### 4.Commit changes
 
 - git commit -m "Commit message"
 
-### Push changes to remote
+### 5.Push changes to remote
 
 - git push origin branch-name
 
-### Merge branches (locally)
+### 6.Merge branches (locally)
 
 - git checkout dev
 - git merge feature/practice-script
 
-### Tag a commit
+### 7.Tag a commit
 
 - git tag -a v1.0.0 -m "Release notes"
 - git push origin v1.0.0
