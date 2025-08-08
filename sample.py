@@ -1,3 +1,7 @@
-# sample.py
-print("Hello, DevOps World! This message comes from the dev branch.")
+def main():
+    print("Hello, DevOps Intern! This is a practice script.")
+
+if __name__ == "__main__":
+    main()
+
 
